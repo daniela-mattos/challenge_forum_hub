@@ -40,4 +40,15 @@ public class Topico {
     }
 
 
+    public void atualizarInformacoes(DadosAtualizaTopico dados) {
+        if(dados.titulo() != null) {
+            this.titulo = dados.titulo();
+        }
+        if(dados.mensagem() != null) {
+            this.mensagem = dados.mensagem();
+        }
+        if(dados.respondido()) {
+            this.respondido = dados.respondido();
+        }
+    }
 }
