@@ -20,6 +20,7 @@ public class TopicoController {
     @PostMapping
     @Transactional
     public void criar(@RequestBody DadosCriaTopico dados) {
+        validaEntradas(dados.titulo(), dados.mensagem());
         repository.save(new Topico(dados));
     }
 
@@ -33,6 +34,7 @@ public class TopicoController {
     public void atualizar(@RequestBody @Valid DadosAtualizaTopico dados) {
         validaId(dados.id());
         var topico = repository.getReferenceById(dados.id());
+        validaEntradas(dados.titulo(), dados.mensagem());
         topico.atualizarInformacoes(dados);
     }
 
@@ -49,6 +51,17 @@ public class TopicoController {
         var topico = repository.getReferenceById(id);
 
         return ResponseEntity.ok(new DadosDetalhaTopico(topico));
+    }
+
+    private void validaEntradas(String titulo, String mensagem) {
+        var topicoExiste = repository.buscaTopico(titulo);
+        var mensagemExiste = repository.buscaMensagem(mensagem);
+        if (topicoExiste.isPresent()) {
+            throw new ValidacaoException("Tópico já existe!");
+        }
+        if (mensagemExiste.isPresent()) {
+            throw new ValidacaoException("Dúvida já exposta em tópico existente!");
+        }
     }
 
     private void validaId(Long id) {
