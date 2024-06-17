@@ -16,6 +16,10 @@
 <h2>Funcionalidades para o usuário final</h2>
 <p>A API se concentrará especificamente nos tópicos, e permite aos usuários:</p>
 
+![insominia](https://github.com/daniela-mattos/challenge_forum_hub/assets/131220332/897ee435-33a7-4c22-b6bc-80045aafbe64)
+
+
+
 <ul>
   <li>Criar um novo tópico;</li>
   <li>Mostrar todos os tópicos criados;</li>
@@ -24,7 +28,9 @@
   <li>Eliminar um tópico.</li>
 </ul>
 
-
+<h2>Regras de negócio:</h2>
+<p>Todos os campos são obrigatórios, a verificação é feita ao cadastrar um novo tópico.</p>
+<p>A API não permite o cadastro de tópicos duplicados (contendo o mesmo título e mensagem), ao criar e ao atualizar um tópico são verificados esses campos separadamente para garantir a integridade dos dados.</p>
 
 
 
