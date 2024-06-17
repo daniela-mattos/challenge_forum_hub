@@ -35,4 +35,6 @@
 <h3>Sobre a Experiência</h3>
 <p>A jornada de Back-end foi cheia de desafios que foram além do conhecimento, entendimento e desenvolvimento da aplicação. Para quem está em transição de carreira, mudar requer dedicar tempo para aprender. E tenho feito os cursos do programa ONE em paralelo ao meu trabalho na área de comunicação, com um curso de graduação, no mês de maio minha cidade passou por uma enchente, fiz jornada dupla trabalhando como voluntária, por muitas vezes achei que não daria conta. Mas, segui em frente. </p>
 <p>Não acho que todos podem, que todos devem, mas fui fazendo o que acreditava ser necessário e aqui estou: 108h de cursos depois, muitas horas mais pensando e passando nervoso para resolver exercícios, tenho a minha badge, um certificado de conclusão. Mais um passo dado em busca de um objetivo.</p>
-![Badge-Spring](https://github.com/daniela-mattos/challenge_forum_hub/assets/131220332/09a5e6db-a46f-4131-b457-72bc3ad657d1)
+
+
+![Badge-Spring](https://github.com/daniela-mattos/challenge_forum_hub/assets/131220332/8c4b41b1-0d90-4eec-8cf2-141fa07cdc9d)
