@@ -8,7 +8,7 @@
   <li>Spring Boot</li>
   <li>MySql</li>
   <li>API Rest</li>
-  <li>Autenticação com Spring Security</li>>
+  <li>Autenticação com Spring Security</li>
   <li>Token JWT</li>
   <li>Testes de endpoints da API com Insomnia</li>
 </ul>
