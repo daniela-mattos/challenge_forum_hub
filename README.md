@@ -1,5 +1,6 @@
 <h1>Challenge ONE Back-End - FórumHub</h1>
-<p>Chalenge é uma ferramenta de aprendizado utilizada nos cursos da Alura, no qual os alunes podem se desafiar e colocar em prática o que aprenderam. Estou participando do programa ONE - Oracle Next Education - com foco em Back-end, o qual, tem o challenge Fórum Hub na última fase.</p>
+<![Badge-Spring](https://github.com/daniela-mattos/challenge_forum_hub/assets/131220332/09a5e6db-a46f-4131-b457-72bc3ad657d1)
+p>Chalenge é uma ferramenta de aprendizado utilizada nos cursos da Alura, no qual os alunes podem se desafiar e colocar em prática o que aprenderam. Estou participando do programa ONE - Oracle Next Education - com foco em Back-end, o qual, tem o challenge Fórum Hub na última fase.</p>
 <p>O objetivo da aplicação é replicar o processo de um fórum no nível do back-end, criando uma API REST usando Spring.</p>
 <p>Para armazenar as informações, foi criado um banco de dados, a partir do qual utilizou-se as operações do CRUD (CREATE, READ, UPDATE, DELETE). Além disso, o desafio incluiu o uso de autenticação e testes de endpoints.</p>
 
